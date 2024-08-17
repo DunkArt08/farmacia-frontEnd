@@ -4,5 +4,5 @@ export default interface Produto{
     id: number;
     titulo: string;
     descricao: string;
-    categoria: Categoria;
+    categoria: Categoria | null;
 }
